@@ -47,7 +47,6 @@ Here's an enhanced **Project Structure** section for your **README.md** file:
 ├── vars/
 │   └── global.yml              # Global variables used across playbooks and roles
 ├── README.md                   # Documentation and instructions for the project
-├── LICENSE                     # License information
 └── .gitignore                  # Ignore unnecessary files (logs, environment files, etc.)
 ```
 
@@ -97,5 +96,3 @@ Here's an enhanced **Project Structure** section for your **README.md** file:
 - `playbooks/rollback.yml`: Rolls back the application to a previous version.
 - `playbooks/update.yml`: Performs a rolling update across web servers.
 
-## License
-This project is licensed under the MIT License.
