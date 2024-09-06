@@ -1,3 +1,7 @@
+// This is the CI/CD pipeline configuration for Jenkins. 
+// The pipeline will trigger Ansible playbooks for deploying and rolling back applications.
+
+
 pipeline {
     agent any
     stages {
