@@ -11,5 +11,5 @@
 
 - name: Restart web server after rollback
   service:
-    name: nginx
+    name: apache2  # or 'httpd' for RHEL/CentOS
     state: restarted

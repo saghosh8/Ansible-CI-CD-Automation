@@ -28,7 +28,7 @@ Here's an enhanced **Project Structure** section for your **README.md** file:
 │   │   ├── handlers/
 │   │   │   └── main.yml        # Handlers to restart services after deployment
 │   │   ├── templates/
-│   │   │   └── nginx.conf.j2   # Template for Nginx configuration (if applicable)
+│   │   │   └── apache.conf.j2   # Template for Apache configuration (if applicable)
 │   │   └── vars/
 │   │       └── main.yml        # Variables for environment setup
 │   ├── deploy/
@@ -78,7 +78,7 @@ Here's an enhanced **Project Structure** section for your **README.md** file:
 - Jenkins
 - Ansible
 - Git
-- Web servers (e.g., Nginx)
+- Web servers (e.g., Apache)
 
 ## Setup Instructions
 1. Clone this repository:  

@@ -3,12 +3,12 @@
 
 
 ---
-- name: Install Nginx
+- name: Install Apache
   apt:
-    name: nginx
+    name: apache2
     state: present
 
-- name: Ensure Nginx is started
+- name: Ensure Apache is started
   service:
-    name: nginx
+    name: apache2
     state: started

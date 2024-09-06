@@ -1,7 +1,5 @@
 # This file contains variables that are used within the setup role. 
-# It might include package names, service names, 
-# and other environment-specific configurations.
-
+# It might include package names, service names, and other environment-specific configurations.
 
 ---
-nginx_package: nginx
+apache_package: apache2

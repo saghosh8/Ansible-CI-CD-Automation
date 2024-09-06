@@ -1,9 +1,9 @@
 # Handlers are triggered when a task changes and are typically used to restart services. 
-# This file will handle restarting Nginx after any changes.
+# This file will handle restarting Apache after any changes.
 
 
 ---
-- name: Restart Nginx
+- name: Restart Apache
   service:
-    name: nginx
+    name: Apache
     state: restarted
