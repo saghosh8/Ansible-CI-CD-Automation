@@ -7,7 +7,7 @@ Here's an enhanced **Project Structure** section for your **README.md** file:
 
 ---
 
-### **Project Structure**
+## Project Structure
 
 ```plaintext
 /ansible-ci-cd-pipeline
