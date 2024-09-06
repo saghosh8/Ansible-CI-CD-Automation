@@ -1,0 +1,3 @@
+---
+backup_dir: /path/to/backup/
+deploy_dir: /var/www/html/

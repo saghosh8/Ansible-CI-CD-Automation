@@ -1,0 +1,5 @@
+---
+- name: Rollback to the previous version
+  hosts: webservers
+  roles:
+    - rollback

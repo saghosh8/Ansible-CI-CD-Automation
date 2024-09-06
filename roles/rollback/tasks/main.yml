@@ -1,0 +1,12 @@
+---
+- name: Restore previous version of application
+  copy:
+    src: /path/to/backup/
+    dest: /var/www/html/
+    owner: www-data
+    group: www-data
+
+- name: Restart web server after rollback
+  service:
+    name: nginx
+    state: restarted

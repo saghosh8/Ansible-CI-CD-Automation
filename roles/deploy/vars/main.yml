@@ -1,0 +1,3 @@
+---
+app_source: /path/to/build/
+deploy_dir: /var/www/html/

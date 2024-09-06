@@ -1,0 +1,5 @@
+---
+- name: Deploy application to web servers
+  hosts: webservers
+  roles:
+    - deploy

@@ -1,0 +1,6 @@
+# Ignore unnecessary files
+*.retry
+*.log
+.env
+__pycache__/
+*.pyc

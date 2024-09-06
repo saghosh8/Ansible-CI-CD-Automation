@@ -1,0 +1,3 @@
+---
+# Global variables for Ansible project
+web_user: www-data

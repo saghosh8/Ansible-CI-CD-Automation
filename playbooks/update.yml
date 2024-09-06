@@ -1,0 +1,6 @@
+---
+- name: Perform a rolling update on web servers
+  hosts: webservers
+  serial: 1  # Update one server at a time
+  roles:
+    - deploy
