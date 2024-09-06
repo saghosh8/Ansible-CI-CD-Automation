@@ -1,3 +1,7 @@
+# Handlers are triggered when a task changes and are typically used to restart services. 
+# This file will handle restarting Nginx after any changes.
+
+
 ---
 - name: Restart Nginx
   service:

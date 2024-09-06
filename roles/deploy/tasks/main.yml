@@ -1,3 +1,6 @@
+# Tasks to deploy the application. This might include copying files, setting permissions, and restarting services.
+
+
 ---
 - name: Copy application files
   copy:

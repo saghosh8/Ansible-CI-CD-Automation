@@ -1,3 +1,7 @@
+# This file contains variables related to the rollback process,
+# such as the backup location of the previous version of the application.
+
+
 ---
 backup_dir: /path/to/backup/
 deploy_dir: /var/www/html/

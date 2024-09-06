@@ -1,3 +1,6 @@
+# This file is meant to store global variables that are used across different playbooks and roles.
+
+
 ---
 # Global variables for Ansible project
 web_user: www-data

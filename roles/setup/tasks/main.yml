@@ -1,3 +1,7 @@
+# This file contains the tasks required to set up the environment before deployment, 
+# such as installing necessary dependencies.
+
+
 ---
 - name: Install Nginx
   apt:

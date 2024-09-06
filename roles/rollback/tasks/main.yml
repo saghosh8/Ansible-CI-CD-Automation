@@ -1,3 +1,6 @@
+# Tasks to rollback the application to a previous stable version.
+
+
 ---
 - name: Restore previous version of application
   copy:

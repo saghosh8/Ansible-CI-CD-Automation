@@ -1,3 +1,7 @@
+# Variables that are specific to the deployment role, 
+# such as the source location of the build or environment-specific settings.
+
+
 ---
 app_source: /path/to/build/
 deploy_dir: /var/www/html/

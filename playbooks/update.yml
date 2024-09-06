@@ -1,3 +1,5 @@
+# This playbook handles rolling updates for the application.
+
 ---
 - name: Perform a rolling update on web servers
   hosts: webservers

@@ -66,7 +66,6 @@ Here's an enhanced **Project Structure** section for your **README.md** file:
   - `update/`: Handles rolling updates across servers for minimal downtime.
 - **vars/**: Contains global variables used across multiple playbooks and roles.
 - **README.md**: Project documentation with setup instructions, usage examples, and project structure.
-- **LICENSE**: License information for the project.
 - **.gitignore**: Specifies which files and directories to ignore in Git, such as logs, retry files, and temporary files.
 
 ---

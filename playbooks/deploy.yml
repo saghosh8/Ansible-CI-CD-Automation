@@ -1,3 +1,5 @@
+# This playbook handles the deployment of the application to the web servers.
+
 ---
 - name: Deploy application to web servers
   hosts: webservers
